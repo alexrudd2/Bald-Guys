@@ -106,7 +106,7 @@ theme_override_font_sizes/font_size = 32
 text = "JOIN"
 
 [node name="scroll" type="ScrollContainer" parent="CanvasLayer/MainMenu/margin/vbox/steam_vbox"]
-clip_contents = false
+custom_minimum_size = Vector2(0, 250)
 layout_mode = 2
 size_flags_vertical = 3
 follow_focus = true
@@ -115,10 +115,6 @@ follow_focus = true
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-
-[node name="Button" type="Button" parent="CanvasLayer/MainMenu/margin/vbox/steam_vbox/scroll/list"]
-layout_mode = 2
-text = "test button"
 
 [node name="use_steam" type="CheckButton" parent="CanvasLayer/MainMenu/margin/vbox"]
 layout_mode = 2
