@@ -7,3 +7,5 @@
 script = ExtResource("1_cqm6g")
 
 [node name="RecoveryMinigame" parent="." instance=ExtResource("2_skb7k")]
+
+[node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
